@@ -483,3 +483,44 @@ a {
 .control--icon--next {
   rotate: 180deg;
 }
+
+/* ========== install ========== */
+.install__inner {
+  margin: 180px 0 85px;
+  position: relative;
+  height: 427px;
+  border-radius: 4px;
+  background: #2e80ce;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+
+.install__img {
+  position: absolute;
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  bottom: 0;
+}
+
+.install__content {
+  max-width: 586px;
+}
+
+.install__heading {
+  color: #fff;
+  max-width: 489px;
+}
+
+.install__desc {
+  color: #fff;
+  max-width: 586px;
+}
+
+.install__row {
+  display: flex;
+  gap: 28px;
+  margin-top: 38px;
+}
